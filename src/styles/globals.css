@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  /* scroll-padding-top: 76px; */
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.text-gradient {
+  background-image: linear-gradient(45deg, #ffffff -20%, #ffffff 50%);
+  text-transform: none;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.text-fullname-light {
+    background: -webkit-linear-gradient(180deg, #000 80%, #000 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .text-fullname-dark {
+    background: -webkit-linear-gradient(180deg, #FFFFFF 80%, #FFF 100%);
+    
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  @media screen(sm) {
+    .order-row {
+      order: 1; 
+    }
+    .order-row-reverse {
+      order: 2;
+    }
+  }
+
+ /* 
+@media (prefers-color-scheme: light) {
+  .text-fullname {
+    background: -webkit-linear-gradient(180deg, #000 80%, #000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .text-fullname {
+    background: -webkit-linear-gradient(180deg, #FFFFFF 80%, #FFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}*/
+
+/* Fade */
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+/* Fade down */
+.fadedown-enter {
+  opacity: 0.01;
+  transform: translateY(-20px);
+  transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
+    transform 300ms var(--easing);
+}
+
+.fadedown-enter-active {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
+    transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+
+/* Fade left */
+.fadeleft-enter {
+  opacity: 0.01;
+  transform: translateX(-20px);
+  transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
+    transform 300ms var(--easing);
+}
+
+.fadeleft-enter-active {
+  opacity: 1;
+  transform: translateX(0px);
+  transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
+    transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+/* Fade right */
+.faderight-enter {
+  opacity: 0.01;
+  transform: translateX(20px);
+  transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
+    transform 300ms var(--easing);
+}
+
+.faderight-enter-active {
+  opacity: 1;
+  transform: translateX(0px);
+  transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
+    transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.animation-updown-up {
+  animation: 6s ease 0s infinite normal none running updown-up;
+}
+
+.animation-updown-down {
+  animation: 6s ease 0s infinite normal none running updown-down;
+}
+
+@keyframes updown-up {
+  0% {
+      transform: translateY(-2px);
+  }
+
+  50% {
+      transform: translateY(2px);
+  }
+
+  100% {
+      transform: translateY(-2px);
+  }
+}
+
+@keyframes updown-down {
+  0% {
+      transform: translateY(2px);
+  }
+
+  50% {
+      transform: translateY(-2px);
+  }
+
+  100% {
+      transform: translateY(2px);
+  }
+}

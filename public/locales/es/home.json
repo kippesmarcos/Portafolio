@@ -1,0 +1,189 @@
+{
+    "navbar": {
+        "links": [
+            {
+                "label": "Proyectos",
+                "href": "projects"
+            },
+            {
+                "label": "Sobre mí",
+                "href": "about"
+            },
+            {
+                "label": "Contacto",
+                "href": "contact"
+            }
+        ],
+        "dropdown": {
+            "textEn": "Inglés",
+            "textEs": "Español"
+        }
+    },
+    "hero": {
+        "presentation": "Soy",
+        "description": "A los 18 años y siendo nativo de Buenos Aires, Argentina, me defino como un apasionado programador junior, siempre en la búsqueda constante de oportunidades para aprender y crecer en el mundo de la programación.",
+        "contact": "¡Contáctame!",
+        "cv": "Descargar CV"
+    },
+    "about": {
+        "title": "Sobre mí",
+        "subtitle": "Mi stack principal",
+        "detail": "Tecnologías adicionales que forman parte de mi experiencia",
+        "items": [
+            {
+                "title": "¿Qué tipo de trabajo hago?",
+                "description": "Soy un apasionado desarrollador web en camino a ser full stack. Disfruto abordar todos los aspectos del desarrollo, desde el diseño hasta el backend y frontend. Mi enfoque integral me permite crear experiencias web completas y estoy constantemente buscando nuevos desafíos para expandir mis habilidades."
+            },
+            {
+                "title": "¿Qué es lo que me apasiona y cuáles son las cosas que valoro?",
+                "description": "Mi pasión es la creación de sitios web atractivos y funcionales que aporten valor al usuario. Reconozco y aprecio el esfuerzo invertido por cada miembro del equipo en la consecución de un trabajo bien hecho."
+            },
+            {
+                "title": "¿Qué tipo de cultura de trabajo busco?",
+                "description": "Busco un lugar en donde pueda crecer profesionalmente y mejorar mis habilidades de programación y diseño. Me encantaría trabajar en un equipo donde se apoyen mutuamente para lograr el mejor resultado posible en un determinado trabajo."
+            },
+            {
+                "title": "¿Qué hago actualmente?",
+                "description": "Actualmente, ejerzo como desarrollador freelance, abordando proyectos que me permiten mejorar mis habilidades mientras busco nuevas oportunidades de trabajo."
+            },
+            {
+                "title": "Mi educación y certificaciones académicas",
+                "description": "Poseo un Certificado de Desarrollador Web y de JavaScript otorgado por CoderHouse, así como otro certificado en LUA obtenido a través de Udemy. Además, cuento con experiencia académica como ex estudiante de Desarrollo de Sistemas en la Universidad Argentina de la Empresa (UADE). Aunque no tengo certificaciones formales en otros lenguajes en este momento, he adquirido habilidades sustanciales en diversas tecnologías a lo largo de mi trayectoria educativa."
+            }
+        ]
+    },
+    "projects": {
+        "title": "Proyectos",
+        "detail": "Proyecto destacado",
+        "subtitle": "Otros proyectos",
+        "textState": "En Desarrollo",
+        "featured": [
+            {
+                "title": "ShingCC - Tienda",
+                "description": "Esto es un proyecto de prueba de mi marca ShingCC que tiene tienda de ropa y fotos.",
+                "src": "/img/academia-eleganzza.webp",
+                "state": true,
+                "technologies": [
+                    "HTML5",
+                    "CSS3",
+                    "JavaScript",
+                    "Figma",
+                    "SCSS"
+                ],
+                "linksType": [
+                    {
+                        "name": "github",
+                        "url": "https://github.com/kippesmarcos/pf-kippes"
+                    },
+                    {
+                        "name": "browser",
+                        "url": "https://silly-chaja-7e35f0.netlify.app/"
+                    }
+                ]
+            },
+            {
+                "title": "Proximamente 1",
+                "description": "Por el momento los proyectos no estan disponibles, pero tienes mi github y linkedin para saber mas de mi.",
+                "src": "/img/stop.webp",
+                "state": false,
+                "technologies": [
+                    "Sin lenguajes"
+                ],
+                "linksType": [
+                    {
+                        "name": "browser",
+                        "url": "marcosezequielkippes.com.ar"
+                    }
+                ]
+            },
+            {
+                "title": "Proximamente 2",
+                "description": "Por el momento los proyectos no estan disponibles, pero tienes mi github y linkedin para saber mas de mi.",
+                "src": "/img/stop.webp",
+                "state": false,
+                "technologies": [
+                    "Sin lenguajes"
+                ],
+                "linksType": [
+                    {
+                        "name": "browser",
+                        "url": "marcosezequielkippes.com.ar"
+                    }
+                ]
+            },
+            {
+                "title": "Proximamente 3",
+                "description": "Por el momento los proyectos no estan disponibles, pero tienes mi github y linkedin para saber mas de mi.",
+                "src": "/img/stop.webp",
+                "state": false,
+                "technologies": [
+                    "Sin lenguajes"
+                ],
+                "linksType": [
+                    {
+                        "name": "browser",
+                        "url": "marcosezequielkippes.com.ar"
+                    }
+                ]
+            }
+        ],
+        "secondary": [
+            {
+                "title": "Proximamente 4",
+                "description": "Por el momento los proyectos no estan disponibles, pero tienes mi github y linkedin para saber mas de mi.",
+                "technologies": [
+                    "Sin lenguajes"
+                ],
+                "linksType": [
+                    {
+                        "name": "browser",
+                        "url": "marcosezequielkippes.com.ar"
+                    }
+                ]
+            },
+            {
+                "title": "Proximamente 5",
+                "description": "Por el momento los proyectos no estan disponibles, pero tienes mi github y linkedin para saber mas de mi.",
+                "technologies": [
+                    "Sin lenguajes"
+                ],
+                "linksType": [
+                    {
+                        "name": "browser",
+                        "url": "marcosezequielkippes.com.ar"
+                    }
+                ]   
+            },
+            {
+                "title": "Proximamente 6",
+                "description": "Por el momento los proyectos no estan disponibles, pero tienes mi github y linkedin para saber mas de mi.",
+                "technologies": [
+                    "Sin lenguajes"
+                ],
+                "linksType": [
+                    {
+                        "name": "browser",
+                        "url": "marcosezequielkippes.com.ar"
+                    }
+                ]
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contáctame",
+        "description": "Actualmente me encuentro en busqueda de nuevas oportunidades de trabajo. ¡Sientete en la libertad de contactarme en cualquier momento, mi computadora y yo estaremos encantados en responderte! :D",
+        "ui": {
+            "contactAction": "¡Contáctame!"
+        }
+    },
+    "footer": {
+        "caption1": "Hecho con <0>Next.js</0> y <1>NextUI</1>",
+        "caption2": "Diseño inspirado en el portafolio de <0>Brittany Chiang</0> y en el sitio web de <1>Vercel</1>"
+    },
+    "ui": {
+        "show": {
+            "more": "Ver más",
+            "less": "Ver menos"
+        }
+    }
+}
