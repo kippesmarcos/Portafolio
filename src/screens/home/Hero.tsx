@@ -5,7 +5,7 @@ import { useTranslation } from 'next-i18next'
 import { ButtonContact, ButtonDownload } from '@/components'
 import { TextName } from '@/components/home'
 import { useIsMounted } from '@/hooks'
-import { TransitionGroup, CSSTransition } from 'react-transition-group'
+import { CSSTransition, TransitionGroup } from 'react-transition-group'
 import Balancer from 'react-wrap-balancer'
 
 interface ChildrenProps {
@@ -14,7 +14,7 @@ interface ChildrenProps {
 
 const Position = () => (
     <h1 className="text-4xl text-gradient md:text-6xl md:leading-[1.5em] tracking-tighter font-semibold mb-3">
-        Desarrollador Web
+        Marcos Ezequiel Kippes
     </h1>
 )
 
@@ -35,7 +35,7 @@ const Description = ({ text }: ChildrenProps) => (
 const FullName = () => {
     return (
         <div className="flex gap-x-3 flex-wrap mb-2.5" >
-            <TextName text='Marcos Ezequiel Kippes' />
+            <TextName text='' />
         </div>
     )
 }

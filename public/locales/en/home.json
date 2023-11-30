@@ -23,7 +23,7 @@
         }
     },
     "hero": {
-        "presentation": "I'm",
+        "presentation": "",
         "description": "At 18 years old and being a native of Buenos Aires, Argentina, I define myself as a passionate junior programmer, always in constant search for opportunities to learn and grow in the world of programming.",
         "contact": "Contact me!",
         "cv": "Download CV"

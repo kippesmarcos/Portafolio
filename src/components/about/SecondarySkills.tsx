@@ -1,7 +1,7 @@
 
+import { config } from '@/config'
 import Marquee from 'react-fast-marquee'
 import Balancer from 'react-wrap-balancer'
-import { config } from '@/config'
 
 interface Props {
     title: string

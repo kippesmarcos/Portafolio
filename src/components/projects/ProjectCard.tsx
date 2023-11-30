@@ -1,10 +1,10 @@
+import { Project } from '@/interfaces'
+import { Chip, Image, Link } from '@nextui-org/react'
+import { useTranslation } from 'next-i18next'
 import { FC, useCallback } from 'react'
 import Balancer from 'react-wrap-balancer'
-import { useTranslation } from 'next-i18next'
-import { Link, Chip, Image } from '@nextui-org/react'
 import { GitHubSVG, OpenSVG } from '../icons'
 import { Description } from '../shared'
-import { Project } from '@/interfaces'
 interface Props {
     project: Project
     direction?: "row-reverse" | "row"
