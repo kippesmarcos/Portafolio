@@ -38,7 +38,7 @@ export const MainLayout: FC<Props> = ({ children, title, description }) => {
                     {
                         rel: "alternate",
                         hrefLang: "en",
-                        href: "https://marcosezequielkippes.com.ar"
+                        href: "https://marcosezequielkippes.com.ar/en"
                     },
                     {
                         rel: "alternate",
