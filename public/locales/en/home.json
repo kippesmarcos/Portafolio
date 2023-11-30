@@ -174,7 +174,7 @@
     },
     "contact": {
         "title": "Contact me",
-        "description": "I am currently looking for new job opportunities. Feel free to contact me anytime, my computer and I will be happy to respond to you! :D",
+        "description": "At the moment, I am actively seeking new job opportunities. Feel free to contact me anytime; I will be keeping an eye out for your response.",
         "ui": {
             "contactAction": "Contact me!"
         }
