@@ -171,7 +171,7 @@
     },
     "contact": {
         "title": "Contáctame",
-        "description": "Actualmente me encuentro en busqueda de nuevas oportunidades de trabajo. ¡Sientete en la libertad de contactarme en cualquier momento, mi computadora y yo estaremos encantados en responderte! :D",
+        "description": "At the moment, I am actively seeking new job opportunities. Feel free to contact me anytime; I will be keeping an eye out for your response.",
         "ui": {
             "contactAction": "¡Contáctame!"
         }
