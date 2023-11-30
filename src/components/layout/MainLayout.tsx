@@ -22,11 +22,11 @@ export const MainLayout: FC<Props> = ({ children, title, description }) => {
             <NextSeo
                 title={title}
                 description={ description }
-                canonical="https://rafael-sequeira-sandoval.dev"
+                canonical="https://marcosezequielkippes.com.ar"
                 additionalMetaTags={[
                     {
                         name: "keywords",
-                        content: "rafael sequeira sandoval, full stack developer, back-end developer, front-end developer, javascript developer, react developer"
+                        content: "Marcos Ezequiel Kippes, desarrollador web, back-end developer, front-end developer, javascript developer, react developer"
                     }
                 ]}
                 additionalLinkTags={[

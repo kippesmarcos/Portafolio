@@ -9,7 +9,7 @@ const HomePage: NextPage = () => {
   const { t } = useTranslation('home')
 
   return (
-    <MainLayout title="Marcos Ezequiel Kippes | Full Stack Developer" description={ t('hero.description') }>
+    <MainLayout title="Marcos Ezequiel Kippes | Desarrollador Web" description={ t('hero.description') }>
       <Hero />
       <div className="h-[calc(80px*2)]" />
       <Projects />
