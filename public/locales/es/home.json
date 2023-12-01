@@ -178,7 +178,7 @@
     },
     "footer": {
         "caption1": "Hecho con <0>Next.js</0> y <1>NextUI</1>",
-        "caption2": "Diseño inspirado en el portafolio de <0>Brittany Chiang</0> y en el sitio web de <1>Vercel</1>"
+        "caption2": "Diseño inspirado en el portafolio de <0>Brittany Chiang</0> y en el sitio web de <1>Vercel.</1>"
     },
     "ui": {
         "show": {
