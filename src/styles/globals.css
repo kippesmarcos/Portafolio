@@ -14,7 +14,7 @@ html {
 }
 
 .text-gradient {
-  background-image: linear-gradient(45deg, #ffffff -20%, #ffffff 50%);
+  background-image: linear-gradient(45deg, #494949 -20%, #494949 50%);
   text-transform: none;
   background-clip: text;
   -webkit-background-clip: text;
